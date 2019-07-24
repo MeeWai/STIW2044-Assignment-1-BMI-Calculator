@@ -20,7 +20,8 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="20dp"
             android:background="@drawable/main_activity_logo_background"
-            app:srcCompat="@mipmap/splash_screen_logo" />
+            app:srcCompat="@mipmap/splash_screen_logo"
+            android:contentDescription="TODO" />
 
         <ImageView
             android:id="@+id/imageView2"
@@ -28,7 +29,8 @@
             android:layout_height="51dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="10dp"
-            app:srcCompat="@mipmap/main_activity_logo" />
+            app:srcCompat="@mipmap/main_activity_logo"
+            android:contentDescription="TODO" />
 
         <TextView
             android:id="@+id/age"
@@ -36,7 +38,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
             android:layout_marginTop="20dp"
-            android:text="Age :"
+            android:text="@string/age"
             android:textColor="#000000"
             android:textSize="16sp"
             android:typeface="normal" />
@@ -49,11 +51,12 @@
             android:layout_marginTop="5dp"
             android:layout_marginEnd="20dp"
             android:ems="10"
-            android:hint="Age"
+            android:hint="@string/ages_2_80"
             android:inputType="number"
             android:textColor="#000000"
             android:textSize="16sp"
-            android:typeface="normal" />
+            android:typeface="normal"
+            android:autofillHints="" tools:targetApi="o"/>
 
         <TextView
             android:id="@+id/gender"
@@ -61,7 +64,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
             android:layout_marginTop="20dp"
-            android:text="Gender :"
+            android:text="@string/gender"
             android:textColor="#000000"
             android:textSize="16sp"
             android:typeface="normal" />
@@ -77,7 +80,7 @@
                 android:id="@+id/radioBtn_female"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Female"
+                android:text="@string/female"
                 android:textColor="#000000"
                 android:textSize="16sp"
                 android:typeface="normal"
@@ -88,7 +91,7 @@
                 android:id="@+id/radioBtn_male"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Male"
+                android:text="@string/male"
                 android:textColor="#000000"
                 android:textSize="16sp"
                 android:typeface="normal"
@@ -101,7 +104,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
             android:layout_marginTop="20dp"
-            android:text="Height (CM) :"
+            android:text="@string/height_cm"
             android:textColor="#000000"
             android:textSize="16sp"
             android:typeface="normal" />
@@ -123,7 +126,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="5dp"
-            android:hint="0 cm"
+            android:hint="@string/_0_cm"
             android:textAlignment="center"
             android:textColor="#000000"
             android:textSize="16sp"
@@ -136,7 +139,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="20dp"
             android:background="@drawable/main_activity_logo_background"
-            android:text="Calculate BMI"
+            android:text="@string/calculate_bmi"
             android:textColor="#000000"
             android:textSize="16sp"
             android:typeface="normal" />
@@ -147,7 +150,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
             android:layout_marginTop="10dp"
-            android:text="Result : "
+            android:text="@string/result"
             android:textColor="#000000"
             android:textSize="16sp"
             android:typeface="normal" />
