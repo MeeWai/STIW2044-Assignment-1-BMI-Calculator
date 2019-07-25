@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     Button button;
     TextView textView, textView2;
 
-    int value, age, height;
+    int age, height;
     String sex, age_user;
 
     resultFemale result_Female;
@@ -40,7 +40,6 @@ public class MainActivity extends AppCompatActivity {
                 age_user = editText.getText().toString();
                 female = findViewById(radioGroup.getCheckedRadioButtonId());
                 sex = (String) female.getText();
-                height = heightValue(value);
 
                 if (TextUtils.isEmpty(age_user)) {
                     editText.setError("Please enter your age.");
@@ -111,16 +110,9 @@ public class MainActivity extends AppCompatActivity {
                 if (seekBar.getProgress() == seekBar.getMax()) {
                     textView.setText("You've reached maximum limit of height : " + seekBar.getMax() + " CM");
                 }
-                value = seekbar.getProgress();
-                heightValue(value);
+               height = seekbar.getProgress();
             }
         });
     }
-
-    private int heightValue(int value) {
-
-        return value;
-    }
-
 
 }
