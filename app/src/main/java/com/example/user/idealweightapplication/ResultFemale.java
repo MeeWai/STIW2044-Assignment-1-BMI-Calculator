@@ -7,8 +7,14 @@ import android.widget.TextView;
 
 public class ResultFemale implements CalculationMethod {
 
-    private int height, age, GJHamwi_Formula, BJDevine_Formula, JDRobinson_Formula, DRMiller_Formula, bmi;
-    TextView textView;
+    private final int height;
+    private final int age;
+    private int GJHamwi_Formula;
+    private int BJDevine_Formula;
+    private int JDRobinson_Formula;
+    private int DRMiller_Formula;
+    private int bmi;
+    private final TextView textView;
 
     ResultFemale(TextView textView, int height, int age) {
         this.textView = textView;
