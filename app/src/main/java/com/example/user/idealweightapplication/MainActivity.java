@@ -14,18 +14,21 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    SeekBar seekbar;
-    EditText editText;
-    RadioButton female;
-    RadioGroup radioGroup;
-    Button button;
-    TextView textView, textView2;
+    private SeekBar seekbar;
+    private EditText editText;
+    private RadioButton female;
+    private RadioGroup radioGroup;
+    private Button button;
+    private TextView textView;
+    private TextView textView2;
 
-    int age, height;
-    String sex, age_user;
+    private int age;
+    private int height;
+    private String sex;
+    private String age_user;
 
-    ResultFemale result_Female;
-    ResultMale result_Male;
+    private ResultFemale result_Female;
+    private ResultMale result_Male;
 
 
     @Override
@@ -75,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    protected void findID() {
+    private void findID() {
         seekbar = findViewById(R.id.height_SeekBar);
         editText = findViewById(R.id.age_editText);
         radioGroup = findViewById(R.id.radioBtn);
