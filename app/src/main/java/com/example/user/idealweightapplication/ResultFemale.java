@@ -5,12 +5,12 @@ import android.annotation.SuppressLint;
 import android.graphics.Color;
 import android.widget.TextView;
 
-public class resultFemale implements calMethod {
+public class ResultFemale implements CalculationMethod {
 
     private int height, age, GJHamwi_Formula, BJDevine_Formula, JDRobinson_Formula, DRMiller_Formula, bmi;
     TextView textView;
 
-    resultFemale(TextView textView, int height, int age) {
+    ResultFemale(TextView textView, int height, int age) {
         this.textView = textView;
         this.height = height;
         this.age = age;

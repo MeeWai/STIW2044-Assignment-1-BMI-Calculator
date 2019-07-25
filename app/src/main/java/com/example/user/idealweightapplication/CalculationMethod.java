@@ -1,6 +1,6 @@
 package com.example.user.idealweightapplication;
 
-public interface calMethod {
+public interface CalculationMethod {
 
     void calculateMethod();
 

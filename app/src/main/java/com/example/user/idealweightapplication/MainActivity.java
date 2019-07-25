@@ -24,8 +24,8 @@ public class MainActivity extends AppCompatActivity {
     int age, height;
     String sex, age_user;
 
-    resultFemale result_Female;
-    resultMale result_Male;
+    ResultFemale result_Female;
+    ResultMale result_Male;
 
 
     @Override
@@ -49,24 +49,24 @@ public class MainActivity extends AppCompatActivity {
                 if (sex.equals("Female")) { //female
                     if (height >= 152) {
                         age = Integer.parseInt(age_user);
-                        result_Female = new resultFemale(textView2, height, age);
+                        result_Female = new ResultFemale(textView2, height, age);
                         result_Female.calculateMethod();
                         result_Female.showResult();
                     } else {
                         age = Integer.parseInt(age_user);
-                        result_Female = new resultFemale(textView2, height, age);
+                        result_Female = new ResultFemale(textView2, height, age);
                         result_Female.calculateMethod2();
                         result_Female.showResult2();
                     }
                 } else { //male
                     if (height >= 152) {
                         age = Integer.parseInt(age_user);
-                        result_Male = new resultMale(textView2, height, age);
+                        result_Male = new ResultMale(textView2, height, age);
                         result_Male.calculateMethod();
                         result_Male.showResult();
                     } else {
                         age = Integer.parseInt(age_user);
-                        result_Male = new resultMale(textView2, height, age);
+                        result_Male = new ResultMale(textView2, height, age);
                         result_Male.calculateMethod2();
                         result_Male.showResult2();
                     }

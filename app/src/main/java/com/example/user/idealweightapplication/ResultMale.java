@@ -4,12 +4,12 @@ import android.annotation.SuppressLint;
 import android.graphics.Color;
 import android.widget.TextView;
 
-public class resultMale implements calMethod {
+public class ResultMale implements CalculationMethod {
 
     private int height, age, GJHamwi_Formula, BJDevine_Formula, JDRobinson_Formula, DRMiller_Formula, bmi;
     TextView textView;
 
-    resultMale(TextView textView, int height, int age) {
+    ResultMale(TextView textView, int height, int age) {
         this.textView = textView;
         this.height = height;
         this.age = age;
