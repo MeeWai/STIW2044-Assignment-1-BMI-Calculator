@@ -14,6 +14,8 @@ In this assignment, we are required to develop an ideal weight calculator based 
 
 Link: [_click here_](https://www.calculator.net/ideal-weight-calculator.html)
 
+Instruction : [_click here ](https://github.com/MeeWai/STIW2044-Assignment-1-BMI-Calculator/blob/master/Lab1.docx)
+
 # Instruction
 
 Choose metric scale and display result based on the output and formulas describe from the page (Robinson, Miller, Devine, Hamwi, and BMI recommendation).
