@@ -14,7 +14,7 @@ In this assignment, we are required to develop an ideal weight calculator based 
 
 Link: [_click here_](https://www.calculator.net/ideal-weight-calculator.html)
 
-Instruction : [_click here ](https://github.com/MeeWai/STIW2044-Assignment-1-BMI-Calculator/blob/master/Lab1.docx)
+Instruction : [_click here_](https://github.com/MeeWai/STIW2044-Assignment-1-BMI-Calculator/blob/master/Lab1.docx)
 
 # Instruction
 
